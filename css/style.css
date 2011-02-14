@@ -1,19 +1,38 @@
 body {
   background-color:#000;
   font-family:"Courier New",Courier,monospace;
-  color:green;
+  color:#ddd;
+  padding:0.3em;
+}
+
+.clear {
+  clear:both;
+}
+
+.box {
+  background-color:black;
+  border:none;
+  color:inherit;
+  border:dashed 1px #00FF00;
+  font-family:inherit;  
 }
 
 button {
-  background-color:black;
-  border:none;
-  color:green;
-  border:dashed 1px green;
-  font-family:inherit;
 }
 
   button:hover {
-    background-color:green;
+    background-color:#00FF00;
     color:black;
     cursor:pointer;
   }
+  
+textarea {
+  width:80%;
+  height:500px;
+  float:left;
+}
+
+#display {
+  float:right;
+  width:15%;
+}
