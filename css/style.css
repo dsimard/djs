@@ -1,0 +1,19 @@
+body {
+  background-color:#000;
+  font-family:"Courier New",Courier,monospace;
+  color:green;
+}
+
+button {
+  background-color:black;
+  border:none;
+  color:green;
+  border:dashed 1px green;
+  font-family:inherit;
+}
+
+  button:hover {
+    background-color:green;
+    color:black;
+    cursor:pointer;
+  }
