@@ -43,7 +43,8 @@ function onLoad() {
   })();
  
  djs.play = function() {
-  djs.presets.bdrum.play();
+  if ([1,3].indexOf(djs.beat) >= 0) djs.presets.bdrum.play();
+  if ([2,4].indexOf(djs.beat) >= 0) djs.presets.snare.play();
  } 
  
  $("#startLoop").click(function() {
