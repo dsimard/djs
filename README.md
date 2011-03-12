@@ -1,4 +1,4 @@
-= djs
+# djs
 
 Mixing javascript and music to create live-looping in a browser. js is interpreted and played on the fly.
 Sounds are created live programmatically. Sound templates are available. All you have is a main loop and
